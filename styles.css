@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 body{
-    background-image: url("background-img.jpg");
+    /* background-image: url("background-img.jpg"); */
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -13,20 +18,45 @@ body{
 .btn-container {
     display: flex;
     padding: 100px;
-    width: 500px;
+    width: 1000px;
     justify-content: space-between;
 
 }
 
 .btn {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     font-size: large;
     color: coral;
+    border: 0;
+    padding: 0;
+    background-image: url("rock.jpg");
 }
+
+.btn:active{
+    box-shadow: 2px 2px 5px white;
+}
+
 .title{
-    padding: 50px;
+    padding: 60px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Helvetica', 'Arial', sans-serif
+}
+
+.result{
     font-size: 50px;
-    color: yellow;
-    align-self: center;
+    color: yellow; 
+}
+
+.score {
+    font-size: 40px;
+    padding: 40px;
+    color: pink;
+}
+
+.final-result{
+    font-size: 40px;
+    padding: 40px;
+    color: orange;
 }
