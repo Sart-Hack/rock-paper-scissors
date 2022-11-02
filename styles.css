@@ -30,7 +30,18 @@ body{
     color: coral;
     border: 0;
     padding: 0;
+}
+
+.rock{
     background-image: url("rock.jpg");
+}
+
+.scissors{
+    background-image: url("scissors.jpg");
+}
+
+.paper{
+    background-image: url("paper.jpg");
 }
 
 .btn:active{
